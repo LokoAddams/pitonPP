@@ -26,19 +26,38 @@
 	"include": {
 		"prefix": "include",
 		"body": [
-			"#include <bits/stdc++.h>\n",
-			"#define form(i,s,e)     for(int i = s; i < e ; i++)",	
-			"#define endl            '\\n'",
-			"#define DBG(x) cerr<<#x<<'='<<(x)<<endl",
-			"#define coutDouble     fixed << setprecision(17)",
+			"#include <bits/stdc++.h>",
+			"",
+			"#define form(i, s, e) for (int i = s; i < e; i++)",
+			"#define icin(x) \\",
+			"\tint x;        \\",
+			"\tcin >> x;",
+			"#define endl '\\n'",
+			"#define DBG(x) cerr << #x << '=' << (x) << endl",
+			"#define coutDouble fixed << setprecision(17)",
 			"#define numtobin(n) bitset<32>(n).to_string()",
-			"#define bintoint(bin_str) stoi(bin_str, nullptr, 2) // bin_str should be a STRING\n",		
+			"#define bintoint(bin_str) \\",
+			"\tstoi(bin_str, nullptr, 2)  \/\/ bin_str should be a STRING",
+			"",
 			"#define INF 1e9",
-			"#define tam 1e5\n",
-			"using namespace std;\n",
-			"int main()\n{\n\tios::sync_with_stdio(0);cin.tie(0); cout.tie(0);\n\t$1\n\treturn 0;\n}"
+			"#define tam 1e5",
+			"",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"\tios::sync_with_stdio(0);",
+			"\tcin.tie(0);",
+			"\tcout.tie(0);",
+			"",
+			"\ticin(nn0)",
+			"\twhile (nn0--) {",
+			"\t",
+			"\t}",
+			"",
+			"\treturn 0;",
+			"}"
 		],
-		"description": "include"
+		"description": "La u no es la misma desde que Gabriel y Juanma terminaron"
 	},
 
 	
