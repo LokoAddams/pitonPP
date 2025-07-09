@@ -39,7 +39,7 @@
 			"#define bintoint(bin_str) stoi(bin_str, nullptr, 2)  \/\/ bin_str should be a STRING",
 			"",
 			"const long long INF =  1e9;",
-			"const int PI = acos(-1);\n",
+			"const double PI = acos(-1);\n",
 			"using namespace std;\n",
 			"typedef long long ll;",
 			"typedef vector<int> vi;",
