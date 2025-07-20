@@ -138,6 +138,6 @@
 			"\t",
 			"};"
 		],
-		"description": "Basic class definition with constructor and destructor"
+		"description": "Clase simple"
 	},
 }
