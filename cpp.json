@@ -68,7 +68,7 @@
 			"#define SORT(v) sort(ALL(v))",
 			"#define RSORT(v) sort(RALL(v))",
 			"#define numtobin(n) bitset<32>(n).to_string() ////////////////",
-			"#define bintoint(bin_str) stoi(bin_str, nullptr, 2)  ////// bin_str should be a STRING",
+			"#define bintoint(bin_str) stoi(bin_str, nullptr, 2)  ///// bin_str should be a STRING",
 			"#define LSOne(S) ((S) & -(S)) ////////////////",
 			"// Háganle r34 al Soruco por favor",
 			"",
